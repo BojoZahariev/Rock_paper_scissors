@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+html {
+  background-image: url("https://images.pexels.com/photos/50993/buddha-buddhism-chinese-pu-tai-50993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  min-height: 100%;
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+#container {
+  text-align: center;
+  margin: auto;
+}
+
+#messages {
+  color: #ced6e0;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  outline: none;
+  width: 200px;
+  height: 200px;
+  background-color: #70a1ff;
+  border: none;
+  color: #2f3542;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+#btn1:active,
+#btn2:active,
+#btn3:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#btn1:hover {
+  background-image: url("https://images.pexels.com/photos/9267/earth-summer-garden-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  min-height: 100%;
+  text-align: center;
+  filter: grayscale(70%);
+}
+
+#btn2:hover {
+  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  min-height: 100%;
+  text-align: center;
+  filter: grayscale(70%);
+}
+
+#btn3:hover {
+  background-image: url("https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  min-height: 100%;
+  text-align: center;
+  filter: grayscale(70%);
+}
+
+#results {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#res1,
+#res2 {
+
+  display: inline-block;
+  font-size: 40px;
+  color: #ced6e0;
+}
+ #res1{
+   float: left;
+   margin-left: 80px;
+ }
+
+#res2 {
+  float: right;
+  margin-right: 80px;
+
+}
+#score1,
+#score2 {
+  font-size: 47px;
+}
+
+#over {
+  text-align: center;
+}
+
+.btn {
+  background-color: #ff6b81;
+  border: 2px solid black;
+  width: 200px;
+  height: 120px;
+  color: #2f3542;
+ font-size: 25px;
+ cursor: pointer;
+ font-family: 'Nanum Brush Script';
+ white-space: pre;
+}
