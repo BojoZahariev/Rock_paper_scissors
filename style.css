@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+* {
+  box-sizing: border-box;
+}
 
 html {
-  background-image: url("https://images.pexels.com/photos/50993/buddha-buddhism-chinese-pu-tai-50993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://cdn.pixabay.com/photo/2013/04/03/10/33/yin-yang-99824_960_720.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
+  background-position: center; 
+  background-color: black;
   min-height: 100%;
   text-align: center;
   font-family: 'Nanum Brush Script', cursive;
 }
+
 
 #container {
   text-align: center;
@@ -16,10 +20,11 @@ html {
 }
 
 #messages {
+  height: 200px;
   color: #ced6e0;
   font-size: 30px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 10px;
   font-family: 'Nanum Brush Script', cursive;
 }
 
@@ -46,8 +51,9 @@ html {
 #btn2:active,
 #btn3:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  -moz-box-shadow: 0px 0px 75px #FFFF33;
+  -webkit-box-shadow: 0px 0px 75px #FFFF33;
+  transform: translateY(2px);
 }
 
 #btn1:hover {
@@ -83,32 +89,50 @@ html {
 #results {
   text-align: center;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #res1,
 #res2 {
-
-  display: inline-block;
   font-size: 40px;
   color: #ced6e0;
+  width: 200px;
 }
- #res1{
-   float: left;
-   margin-left: 80px;
- }
+
+#res1 {
+  margin-left: 20%;
+}
 
 #res2 {
-  float: right;
-  margin-right: 80px;
-
+  margin-right: 20%;
 }
+
 #score1,
 #score2 {
-  font-size: 47px;
+  font-size: 50px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #F8DE7E, 0 0 20px #F8DE7E, 0 0 30px #F8DE7E, 0 0 40px #F8DE7E, 0 0 50px #F8DE7E, 0 0 60px #F8DE7E, 0 0 70px #F8DE7E;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #FFFF33, 0 0 30px #FFFF33, 0 0 40px #FFFF33, 0 0 50px #FFFF33, 0 0 60px #FFFF33, 0 0 70px #FFFF33, 0 0 80px #FFFF33;
+  }
+}
+
+
+
 
 #over {
   text-align: center;
+  height: 130px;
 }
 
 .btn {
@@ -117,8 +141,20 @@ html {
   width: 200px;
   height: 120px;
   color: #2f3542;
- font-size: 25px;
- cursor: pointer;
- font-family: 'Nanum Brush Script';
- white-space: pre;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: 'Nanum Brush Script';
+  white-space: pre;
 }
+
+
+@media only screen and (max-width: 600px) {
+  #res1 {
+  margin-left: 5%;
+}
+
+#res2 {
+  margin-right: 5%;
+}
+}
+
