@@ -63,7 +63,7 @@ body {
 }
 
 #btn1:hover {
-  background-image: url("https://images.pexels.com/photos/9267/earth-summer-garden-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url(images/rock.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #464646;
@@ -73,7 +73,7 @@ body {
 }
 
 #btn2:hover {
-  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url(images/paper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #464646;
@@ -83,7 +83,7 @@ body {
 }
 
 #btn3:hover {
-  background-image: url("https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url(images/scissors.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #464646;
