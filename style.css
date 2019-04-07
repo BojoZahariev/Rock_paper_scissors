@@ -26,6 +26,7 @@ html {
   margin-top: 5%;
   margin-bottom: 10px;
   font-family: 'Nanum Brush Script', cursive;
+  text-shadow: 1px 1px black;
 }
 
 #btn1,
@@ -98,6 +99,7 @@ html {
   font-size: 40px;
   color: #ced6e0;
   width: 200px;
+  text-shadow: 1px 1px black;
 }
 
 #res1 {
