@@ -36,7 +36,7 @@ html {
   width: 200px;
   height: 200px;
   background-color: #70a1ff;
-  border: none;
+  border: 1px solid black;
   color: #2f3542;
   text-align: center;
   text-decoration: none;
